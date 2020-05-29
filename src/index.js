@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // your code here
 
   // initialize taskList class
+  
   const taskList = new TaskList();
   //grab all the necessary DOM elements
 
@@ -47,6 +48,8 @@ class TaskList {
   renderTasks() {
     return this.tasks.map((task) => task.render()).join("");
   }
+
+
 
   deleteTask(description) {
     this.tasks = this.tasks.filter((task) => task.description !== description);
