@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // your code here
 
   // initialize taskList class
-  
+
   const taskList = new TaskList();
   //grab all the necessary DOM elements
 
